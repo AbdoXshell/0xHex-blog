@@ -1,0 +1,6 @@
+baseURL = 'https://0xhex.netlify.app/'
+locale = 'en-us'
+title = '0xHex'
+theme = 'PaperMod'
+[build.environment]
+  HUGO_VERSION = "0.128.0"
