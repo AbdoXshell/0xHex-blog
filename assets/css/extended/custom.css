@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --font-mono: 'JetBrains Mono', monospace;
+  --accent: #00ff9f;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.post-title a:hover, a:hover {
+  color: var(--accent) !important;
+}
+
+.logo a {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+code, pre {
+  font-family: var(--font-mono) !important;
+}
+
+.post-entry {
+  border-left: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.post-entry:hover {
+  border-left-color: var(--accent);
+}
+
+.post-tags a {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  border: 1px solid #333;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+.post-tags a:hover {
+  border-color: var(--accent);
+  color: var(--accent) !important;
+}
+
+.home-info .entry-header h1 {
+  font-family: var(--font-mono);
+  font-size: 1.6rem;
+}
